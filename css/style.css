@@ -1,0 +1,146 @@
+:root {
+  --primary: #141415;
+  --white: #fff;
+  --button: #1fffa9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--primary);
+}
+
+/* Header Section */
+header {
+  width: 100%;
+  height: 100vh;
+  /* background: #35354b; */
+}
+.container {
+  margin: 0 auto;
+  width: 80vw;
+  /* background: #7c13df; */
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  /* background: rgb(75, 46, 19); */
+  justify-content: space-between;
+}
+.logo {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  /* background: rgb(6, 114, 78); */
+}
+
+.logo > img {
+  height: 42px;
+}
+.logo > span {
+  font-weight: 900;
+  font-size: 20px;
+  color: #1fffa9;
+}
+.menu {
+  width: 65%;
+  height: 90px;
+  /* background-color: #0000ff; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.menu > ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  gap: 5px;
+  margin-right: 10px;
+  /* background-color: #35354b; */
+}
+.menu > ul > li > a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--white);
+  padding: 15px 20px;
+  font-weight: 600;
+}
+.menu > ul > li > a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--primary);
+  background: #1fffa9;
+  border-radius: 8px;
+}
+
+.donate-btn {
+  width: 15%;
+}
+.donate-btn > a {
+  text-decoration: none;
+  display: flex;
+  width: 151px;
+  height: 48px;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  /* background: var(--Primary-2, #1fffa9); */
+  border: solid 1px var(--button);
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 600;
+}
+.donate-btn > a:hover {
+  background: var(--Primary-2, #1fffa9);
+  border: solid 1px var(--button);
+  color: var(--primary);
+}
+
+/* Hero Section */
+.bg {
+  background: radial-gradient(#141415b6 15%, #141415 70%),
+    url(../assets/bg-particle.svg) center/cover;
+}
+.hero {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* background: radial-gradient(rgba(226, 8, 8, 0.9), rgba(20, 20, 21, 0.212)); */
+}
+.title-desc {
+  /* width: 70%; */
+  width: 919px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.title-desc > h1 {
+  font-size: 70px;
+  color: var(--white);
+}
+.title-desc > h1 > span {
+  color: var(--button);
+}
+.title-desc > p {
+  font-size: 18px;
+  color: var(--white);
+}
+.screen {
+  width: 40%;
+  display: flex;
+  justify-content: right;
+}
+.screen > img {
+  width: 100%;
+}
