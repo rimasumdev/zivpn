@@ -440,7 +440,7 @@ h6 {
 }
 
 #hero p {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white);
   margin-bottom: 50px;
   font-size: 18px;
 }
