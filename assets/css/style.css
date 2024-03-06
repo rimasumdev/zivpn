@@ -1079,6 +1079,7 @@ h6 {
   padding: 120px 0;
   display: flex;
   align-items: start;
+  overflow: hidden !important;
 }
 .text-center {
   text-align: left !important;
@@ -1097,40 +1098,12 @@ h6 {
   color: #fff;
 }
 
-.cta .cta-btn:first-child {
-  /* font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 8px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 1px solid var(--button);
-  color: var(--white); */
-  margin-right: 15px;
-}
 .cta .cta-btn {
   transition: 0.4s ease-in-out;
 }
 
 .cta .cta-btn:hover {
   transform: scale(1.1);
-}
-
-@media (max-width: 1024px) {
-  .cta {
-    background-attachment: scroll;
-  }
-}
-
-@media (min-width: 769px) {
-  .cta .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
 }
 /*--------------------------------------------------------------
 # Frequently Asked Questions
