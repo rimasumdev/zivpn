@@ -581,7 +581,6 @@ h6 {
 }
 
 .section-title p {
-  width: 700px;
   margin-bottom: 0;
   color: var(--white);
   text-align: center;
@@ -769,10 +768,7 @@ h6 {
 }
 
 /* Carousel */
-.testimonials {
-  height: 400px;
-  /* background: #202926; */
-}
+
 .testimonials h2 {
   font-family: 'Montserrat', sans-serif;
   color: var(--white);
@@ -1088,7 +1084,6 @@ h6 {
   text-align: left !important;
 }
 .cta h3 {
-  width: 475px;
   color: #fff;
   font-size: 28px;
   font-weight: 700;
