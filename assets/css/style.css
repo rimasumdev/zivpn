@@ -1449,7 +1449,7 @@ h6 {
 }
 @media (max-width: 576px) {
   #hero {
-    /* padding-bottom: 100px; */
+    padding-bottom: 100px;
     padding: 0;
   }
   #main .container .funfact-full {
@@ -1457,7 +1457,7 @@ h6 {
   }
   #main .container .funfact-small {
     display: block;
-    margin-top: 120px;
+    margin-top: 80px;
   }
   .section-title h2 {
     font-size: 24px !important;
