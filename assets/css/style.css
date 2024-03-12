@@ -241,6 +241,7 @@ h6 {
 /**
 * Mobile Navigation 
 */
+
 .mobile-nav-toggle {
   color: var(--button);
   font-size: 28px;
@@ -274,7 +275,7 @@ h6 {
   /* left: 0;
   bottom: 0; */
   background: var(--primary);
-  transition: 0.5s;
+  transition: all 0.5s ease-in-out;
   z-index: 999;
 }
 
@@ -425,6 +426,9 @@ h6 {
   #hero .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
+  }
+  .faq {
+    margin-top: 150px;
   }
 }
 
@@ -665,6 +669,9 @@ h6 {
 }
 
 /* Carousel */
+.testimonials {
+  height: 500px;
+}
 
 .testimonials h2 {
   font-family: 'Montserrat', sans-serif;
@@ -1012,9 +1019,6 @@ h6 {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-/* .faq .faq-list {
-  padding: 0 100px;
-} */
 
 .faq .faq-list ul {
   padding: 0;
