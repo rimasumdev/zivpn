@@ -200,14 +200,10 @@ h6 {
   margin-left: 5px;
 }
 
-.navbar a:hover,
-/* .navbar .active,
-.navbar .active:focus, */
 .navbar li:hover > a {
-  /* color: #47b2e4; */
   color: var(--primary);
-  background: var(--button);
-  border-radius: 8px;
+  /* background: var(--button);
+  border-radius: 8px; */
 }
 
 .navbar .getstarted,
