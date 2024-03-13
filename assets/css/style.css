@@ -524,7 +524,8 @@ h6 {
 }
 
 .appimage {
-  width: 120%;
+  width: 1024px;
+  margin-left: 250px;
 }
 .why-us .content {
   padding-top: 80px;
