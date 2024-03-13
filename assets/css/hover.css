@@ -1,13 +1,8 @@
-/*!
- * Hover.css (http://ianlunn.github.io/Hover/)
- * Version: 2.3.2
- * Author: Ian Lunn @IanLunn
- * Author URL: http://ianlunn.co.uk/
- * Github: https://github.com/IanLunn/Hover
-
- * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
- */
-/* 2D TRANSITIONS */
+:root {
+  --primary: #141415;
+  --white: #d6d6d6;
+  --button: #1fffa9;
+}
 /* Grow */
 .hvr-grow {
   display: inline-block;
@@ -1327,7 +1322,8 @@
   right: 0;
   bottom: 0;
   color: var(--primary);
-  background: var(--button);
+  /* background: var(--button); */
+  border-bottom: 1px solid var(--button);
   border-radius: 8px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -1343,7 +1339,7 @@
 .hvr-sweep-to-right:hover,
 .hvr-sweep-to-right:focus,
 .hvr-sweep-to-right:active {
-  color: white;
+  color: var(--primary);
 }
 .hvr-sweep-to-right:hover:before,
 .hvr-sweep-to-right:focus:before,
