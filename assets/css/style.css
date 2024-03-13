@@ -323,7 +323,7 @@ h6 {
   /* height: 700px; */
   height: 100vh;
   background: radial-gradient(#141415b6 15%, #141415 70%),
-    url('/herobg.png') center/cover;
+    url('../icons/herobg.png') center/cover;
 }
 
 #hero .container {
